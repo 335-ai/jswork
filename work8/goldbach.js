@@ -21,12 +21,12 @@ function goldbach(){
           return false;
         }
     }
-    function isTrue(idd){
+    function isTrue(odd){
         let str = '';
-        for (var w = 2; w < idd; w++) {
-            var r = idd - w;
+        for (var w = 2; w < odd; w++) {
+            var r = odd - w;
             if (lin(w) && lin(r) && w <= r) {
-                str += ("偶数" + idd + "可以拆分成质数" + w + "和" + r + '<br>')
+                str += ("偶数" + odd + "可以拆分成质数" + w + "和" + r + '<br>')
                  }
                          }
          document.getElementById('goldbach').innerHTML = str;

@@ -43,5 +43,5 @@ setInterval(function() {
         lamp.changeStyle(now.style);
     }
     count.change(timeout);
-}, 1000);    
+}, 1000);      
 

@@ -23,7 +23,6 @@ function inputBlur(){
         error(tips_obj, reg_msg['msg']['error']);
     }
 }
-
 function getRegMsg(name,tips){
     var reg = msg = '';
     switch(name){
